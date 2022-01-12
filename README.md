@@ -16,3 +16,13 @@ Java is an interpreted language
 
 Because it allows you to plan instructions that follow a logical pattern without including technical details, it also helps to explain exactly what each line of a computer program should do.
 
+**Create a pseudocode to calculate the aproximated age of a user base on the year they born, (you can define a variable with the actual year if you need it, like for example i could define Y <-- 2022)**
+
+process subtracts
+ define a, b how whole
+ write "Enter your year of birth:"
+ Read
+ b<-2022-a
+ Write "you are" b "years old"
+ Endprocesss
+ 
