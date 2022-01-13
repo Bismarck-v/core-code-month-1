@@ -29,4 +29,6 @@ process subtracts
  **#Why are flowcharts important to us as developers?**
 
 Because they facilitate the way to visually represent the flow of data through an information processing system, in this we make an analysis of the processes or procedures that we require to carry out a program or an objective
+
+<h4 class=”text-center”>Hola</h4>
  
