@@ -60,3 +60,41 @@ Because they facilitate the way to visually represent the flow of data through a
 
 ---
 **9. Search about High-level languages and Low-level languages, you can start with this [video](https://www.youtube.com/watch?v=1vRPOp5p-qs&ab_channel=EliasTheProfe "Comienza a aprender"). Completed**
+
+---
+<h4 class=”text-center”>Wednesday</h4>
+
+**1. Learn about binary, decimal and hexadecimal numbers. Completed**
+
+---
+**2. Translate the year you where born to binary, decimal and hexadecimal.**
+
+born year= 2003
+Binary = 11111010011
+Decimal = 2003
+Hexadecimal= 7D3
+
+---
+**3. Translate 51966 into hexadecimal and binary.**
+
+Hexadecimal= CAFE
+Binary= 1100101011111110
+
+---
+**4. Use a Low-level language, for example MIPS aseembler, to do so, you will need to follow this guide. We recomend to check the guide first but also this presentation could be helpful. Completed**
+
+---
+**5. Base on the examples and the guide of the low-level language: 
+5.1 Create a program to add two numbers given by the user
+```
+ .data
+    nombre: .asciiz "\Bismarck Vanegas"
+  .text
+    main:
+      li $v0, 4
+      la $a0, nombre
+      syscall
+```
+
+5.2 Create a program that display your name
+ 
