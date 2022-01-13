@@ -2,7 +2,8 @@
 Core Code bootcamp
 
 <h4 class=”text-center”>Week challenges</h4>
-## Tuesday
+
+<h4 class=”text-center”>Tuesday.</h4>
 
 **1. I have finished watching the video about the complication.**
 
