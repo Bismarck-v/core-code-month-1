@@ -31,15 +31,23 @@ Because it allows you to plan instructions that follow a logical pattern without
 
 ---
 **6. Create a pseudocode to calculate the aproximated age of a user base on the year they born, (you can define a variable with the actual year if you need it, like for example i could define Y <-- 2022)**
+1. Create a variable that contains the current year.
+```python
+Newyear = 2022
+```
+2. Create another variable that asks for the year of birth.
+```python
+BornYear= int(input("Enter your year of birth: "))
+```
+3.Create a last variable, where the previous variables will be subtracted (YearNew-BornYear).
+```python
+age = Newyear - BornYear
+```
+4.Print the result on the screen age
+```python
+print("You are", age ,"years old")
+```
 
-process subtracts
- define a, b how whole
- write "Enter your year of birth:"
- Read
- b<-2022-a
- Write "you are" b "years old"
- Endprocesss
- 
  ---
  **7. Read about flowcharts here. Completed**
  
