@@ -1,7 +1,7 @@
 #core-code-month-1
 Core Code bootcamp
 
-**Week challenges (Tuesday)**
+<h4 class=”text-center”>Week challenges(Tuesday)</h4>
 
 **#Java language is compiled or interpreted?**
 
@@ -30,5 +30,4 @@ process subtracts
 
 Because they facilitate the way to visually represent the flow of data through an information processing system, in this we make an analysis of the processes or procedures that we require to carry out a program or an objective
 
-<h4 class=”text-center”>Hola</h4>
  
