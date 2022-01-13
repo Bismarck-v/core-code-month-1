@@ -69,23 +69,23 @@ Because they facilitate the way to visually represent the flow of data through a
 ---
 **2. Translate the year you where born to binary, decimal and hexadecimal.**
 
--born year= 2003
--Binary = 11111010011
--Decimal = 2003
--Hexadecimal= 7D3
+- born year= 2003
+- Binary = 11111010011
+- Decimal = 2003
+- Hexadecimal= 7D3
 
 ---
 **3. Translate 51966 into hexadecimal and binary.**
 
--Hexadecimal= CAFE
--Binary= 1100101011111110
+- Hexadecimal= CAFE
+- Binary= 1100101011111110
 
 ---
 **4. Use a Low-level language, for example MIPS aseembler, to do so, you will need to follow this guide. We recomend to check the guide first but also this presentation could be helpful. Completed**
 
 ---
 **5. Base on the examples and the guide of the low-level language:**
--5.1 Create a program to add two numbers given by the user
+- 5.1 Create a program to add two numbers given by the user
 ```
  .data
     nombre: .asciiz "\Bismarck Vanegas"
@@ -96,5 +96,5 @@ Because they facilitate the way to visually represent the flow of data through a
       syscall
 ```
 
--5.2 Create a program that display your name
+- 5.2 Create a program that display your name
  
