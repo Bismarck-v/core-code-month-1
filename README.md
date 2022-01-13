@@ -39,11 +39,11 @@ Newyear = 2022
 ```python
 BornYear= int(input("Enter your year of birth: "))
 ```
-3.Create a last variable, where the previous variables will be subtracted (YearNew-BornYear).
+3. Create a last variable, where the previous variables will be subtracted (YearNew-BornYear).
 ```python
 age = Newyear - BornYear
 ```
-4.Print the result on the screen age
+4. Print the result on the screen age
 ```python
 print("You are", age ,"years old")
 ```
