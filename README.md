@@ -98,3 +98,25 @@ Because they facilitate the way to visually represent the flow of data through a
 
 - 5.2 Create a program that display your name
  
+ ---
+ <h4 class="text-center">Thursday</h4>
+ 
+**1. Search for real word applications of Javascript**
+
+- Web development
+- Create interactive presentations
+- web servers
+- Operating systems
+- Internet servers
+- Databases
+- Gaming platforms
+- Mobile development
+
+---
+**2. (optional but great) Watch this video. Comleted**
+
+---
+**3. (optional but great) Watch this video**
+
+---
+**4. Follow the github course, you can find it here. In process**
