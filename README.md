@@ -86,17 +86,6 @@ Because they facilitate the way to visually represent the flow of data through a
 ---
 **5. Base on the examples and the guide of the low-level language:**
 - 5.1 Create a program to add two numbers given by the user
-```
- .data
-    nombre: .asciiz "\Bismarck Vanegas"
-  .text
-    main:
-      li $v0, 4
-      la $a0, nombre
-      syscall
-```
-
-- 5.2 Create a program that display your name
  ```
  .data
     num1: .asciiz "\nIngresar el primer numero: "
@@ -133,6 +122,17 @@ Because they facilitate the way to visually represent the flow of data through a
       syscall
       
       li $v0, 10
+      syscall
+```
+ 
+- 5.2 Create a program that display your name
+ ```
+ .data
+    nombre: .asciiz "\Bismarck Vanegas"
+  .text
+    main:
+      li $v0, 4
+      la $a0, nombre
       syscall
 ```
 
