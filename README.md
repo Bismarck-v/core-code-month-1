@@ -4,7 +4,7 @@
  
 </a>
 
-#core-code-month-1
+## core-code-month-1
 Core Code bootcamp
 
 <h4 class=”text-center”>Week challenges</h4>
