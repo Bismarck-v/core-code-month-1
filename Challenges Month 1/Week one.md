@@ -7,7 +7,7 @@ Core Code bootcamp
 
 <h4 class=”text-center”>Week challenges</h4>
 
-## <h4 class=”text-center”>Tuesday.</h4>
+## Tuesday
 
 **1. I have finished watching the video about the complication.**
 
@@ -66,7 +66,7 @@ Because they facilitate the way to visually represent the flow of data through a
 **9. Search about High-level languages and Low-level languages, you can start with this [video](https://www.youtube.com/watch?v=1vRPOp5p-qs&ab_channel=EliasTheProfe "Comienza a aprender"). Completed**
 
 ---
-<h4 class=”text-center”>Wednesday</h4>
+## Wednesday
 
 **1. Learn about binary, decimal and hexadecimal numbers. Completed**
 
@@ -136,7 +136,7 @@ Because they facilitate the way to visually represent the flow of data through a
 ```
 
  ---
- <h4 class="text-center">Thursday</h4>
+## Thursday
  
 **1. Search for real word applications of Javascript**
 
