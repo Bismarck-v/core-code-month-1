@@ -7,6 +7,12 @@ Core Code bootcamp
 
 <h4 class=”text-center”>Week challenges</h4>
 
+# Index
+- [Tuesday](#tuesday)
+- [Wednesday](#wednesday)
+- [Thursday](#thursday)
+
+
 ## Tuesday
 
 **1. I have finished watching the video about the complication.**
