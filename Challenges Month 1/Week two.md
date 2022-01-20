@@ -17,6 +17,7 @@
 ## Thuesday
 
 **0. Watch [this](https://www.youtube.com/watch?v=cEBkvm0-rg0) video. Completed**
+
 **1. This code does not execute properly. Try to figure out why.**
 ``` Javascript
 function multiply(a, b){
