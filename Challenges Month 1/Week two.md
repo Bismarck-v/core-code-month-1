@@ -112,3 +112,18 @@ let fakebin = "";
   return fakebin;
 }
 ```
+
+## Thursday
+
+**1. Remove all exclamation marks from the end of sentence.**
+```Javascript
+function remove (string) {  
+  return string.replace (/!+$/,'');
+}
+```
+
+**2. Create a function called shortcut to remove the lowercase vowels (a, e, i, o, u ) in a given string.**
+```Javascript
+function shortcut(string){
+  return string.replace(/[a,e,i,o,u]/g, '')
+  }
