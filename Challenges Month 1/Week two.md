@@ -127,3 +127,45 @@ function remove (string) {
 function shortcut(string){
   return string.replace(/[a,e,i,o,u]/g, '')
   }
+  ```
+**3. Let's play! You have to return which player won! In case of a draw return Draw!.**
+```Javascript
+const rps = (p1, p2) => {
+  const options = ['scissors', 'paper', 'rock'];
+  let player1 = options.indexOf(p1);
+  let player2 = options.indexOf(p2);
+  let result;
+    if(player1 == player2) return 'Draw!';
+    if(player1 == 0 && player2 == 1) result = 1;
+    if(player1 == 0 && player2 == 2) result = 2;
+    if(player1 == 2 && player2 == 0) result = 1;
+    if(player1 == 2 && player2 == 1) result = 2;
+    if(player1 == 1 && player2 == 0) result = 2;
+    if(player1 == 1 && player2 == 2) result = 1;
+  return `Player ${result} won!`;
+};
+```
+
+**4. Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence, which is the number of times you must multiply the digits in num until you reach a single digit.
+
+For example (Input --> Output):
+```
+39 --> 3 (because 3*9 = 27, 2*7 = 14, 1*4 = 4 and 4 has only one digit)
+999 --> 4 (because 9*9*9 = 729, 7*2*9 = 126, 1*2*6 = 12, and finally 1*2 = 2)
+4 --> 0 (because 4 is already a one-digit number)
+```
+
+```Javascript
+function persistence(num, count) {
+  count = count || 0; 
+  let numstr = num.toString(); 
+  
+  if (numstr.length === 1) {
+    return count
+  } 
+  let new_num = numstr.split('').reduce((acc, val) => {
+    return acc * val
+  }, 1)
+  return persistence(new_num, count + 1) 
+}
+```
