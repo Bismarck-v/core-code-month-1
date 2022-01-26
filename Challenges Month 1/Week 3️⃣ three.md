@@ -1,4 +1,12 @@
-You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item.
+# Index
+- [Monday](#monday)
+- [Tuesday](#tuesday)
+- [Wednesday](#wednesday)
+- [Thursday](#thursday)
+---
+
+##Monday
+1.You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item.
 
 Implement the function which takes an array containing the names of people that like an item. It must return the display text as shown in the examples:
 ```
@@ -24,6 +32,20 @@ function likes (names) {
     return val === "{name}" ? names.shift() : names.length;// 
   });
 }
-var runlikes= likes(names);
-console.log(runlikes);
+var ilikes= likes(names);
+console.log(ilikes);
+```
+
+2. Write a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number. You can guarantee that input is non-negative.
+
+Example: The binary representation of 1234 is 10011010010, so the function should return 5 in this case.
+```Javascript
+var countBits = function(n) {
+  let num = 0
+  
+  Array.from(n.toString(2)).forEach(function(bit){
+    if (bit == 1) num++;
+})
+return num;
+};
 ```
