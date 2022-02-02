@@ -5,7 +5,7 @@
 - [Thursday](#thursday)
 ---
 
-##Monday
+## Monday
 
 **1.You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. We want to create the text that should be displayed next to such an item.
 Implement the function which takes an array containing the names of people that like an item. It must return the display text as shown in the examples:**
@@ -61,7 +61,7 @@ decodeMorse = function(morseCode){
 }
 ```
 
-##Tuesday
+## Tuesday
 
 **1. Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result.
 Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).
