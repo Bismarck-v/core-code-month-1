@@ -2,5 +2,5 @@
   <img src="https://uploads-ssl.webflow.com/5eb2f56932c3562feab232e3/5f73550d00249e7e96c9f3de_Logo.png">
 </div>
 
-# core-code-month-1
+# core-code
 Core Code bootcamp
