@@ -23,10 +23,15 @@
 ## Tuesday
 
 **1. [This](https://www.typescriptlang.org/docs/handbook/intro.html) link is nice to have and read. Completed**
+
 **2. [Typescript object type](https://typescript-exercises.github.io/#exercise=1). Completed**
+
 **3. Read [this](https://blog.logrocket.com/types-vs-interfaces-in-typescript/). Completed**
+
 **4. [Typescript union types](https://typescript-exercises.github.io/#exercise=2). Completed**
+
 **5. [Typescript in operator](https://typescript-exercises.github.io/#exercise=3). Completed**
+
 **6. Given an array of integers, find the one that appears an odd number of times. Completed**
 **There will always be only one integer that appears an odd number of times.. Completed**
 Examples
