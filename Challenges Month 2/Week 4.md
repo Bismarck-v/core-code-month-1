@@ -108,3 +108,9 @@ function createPhoneNumber(numbers){
   return '(' + numbers[0] + numbers[1] + numbers[2] + ') ' + numbers[3] + numbers[4] + numbers[5] + '-' + numbers[6] + numbers[7] + numbers[8] + numbers[9];
 }
 ```
+
+**3. Watch [this](https://www.youtube.com/watch?v=m_MQYyJpIjg).Completed**
+**4. Watch [this](https://www.youtube.com/watch?v=08CWw_VD45w).Completed**
+**5. Read [this](https://medium.com/from-the-scratch/oop-everything-you-need-to-know-about-object-oriented-programming-aee3c18e281b). Completed**
+**6. Read [this](https://naveenkumarkoppala.medium.com/typescript-oops-c327678744b0). Compeleted**
+**7. Read [this](https://rambabupadimi.medium.com/typescript-object-oriented-programming-7a6fd905d90e). Completed**
