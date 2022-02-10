@@ -109,9 +109,9 @@ function createPhoneNumber(numbers){
 }
 ```
 
-**3. Watch [this](https://www.youtube.com/watch?v=m_MQYyJpIjg).Completed**
+**3. Watch [this](https://www.youtube.com/watch?v=m_MQYyJpIjg). Completed**
 
-**4. Watch [this](https://www.youtube.com/watch?v=08CWw_VD45w).Completed**
+**4. Watch [this](https://www.youtube.com/watch?v=08CWw_VD45w). Completed**
 
 **5. Read [this](https://medium.com/from-the-scratch/oop-everything-you-need-to-know-about-object-oriented-programming-aee3c18e281b). Completed**
 
