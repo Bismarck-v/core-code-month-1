@@ -83,3 +83,14 @@ return result;
 ```arrayDiff([1,2],[1]) == [2]```
 **If a value is present in b, all of its occurrences must be removed from the other:**
 ```arrayDiff([1,2,2,2,3],[2]) == [1,3]```
+```Javascript
+function arrayDiff(array1, array2) {
+if(array1.length === 0){return []}
+if(array2.length === 0){return array1}
+let returnArray = [];
+array1.forEach(function included(element){
+if(!array2.includes(element)){returnArray.push(element)}
+})
+return returnArray;
+}
+```
