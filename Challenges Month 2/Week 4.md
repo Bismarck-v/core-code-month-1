@@ -18,6 +18,7 @@
 **5. Follow [this](https://www.youtube.com/watch?v=DHvZLI7Db8E) video. Completed**
 
 **6. Check [this](https://www.youtube.com/watch?v=rKK1q7nFt7M) video. Completed**
+
 ---
 
 ## Tuesday
