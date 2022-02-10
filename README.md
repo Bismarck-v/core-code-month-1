@@ -4,3 +4,6 @@
 
 # core-code
 Core Code bootcamp
+
+## My codewars
+https://www.codewars.com/users/Bismarck-v
