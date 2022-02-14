@@ -118,6 +118,7 @@ function createPhoneNumber(numbers){
 **6. Read [this](https://naveenkumarkoppala.medium.com/typescript-oops-c327678744b0). Compeleted**
 
 **7. Read [this](https://rambabupadimi.medium.com/typescript-object-oriented-programming-7a6fd905d90e). Completed**
+
 ---
 
 ## Thursday
