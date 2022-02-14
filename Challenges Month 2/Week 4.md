@@ -154,3 +154,14 @@ Example:
 ```
 **Have fun coding it and please don't forget to vote and rank this kata! :-)
 I have also created other katas. Take a look if you enjoyed this kata!**
+```Javascript
+function findMissingLetter(array)
+{
+  let a = array[0].charCodeAt(0)
+  for (let i = 0; i < array.length; i++){
+    if (a + i !== array[i].charCodeAt(0)){
+      return String.fromCharCode(a+i)
+    }
+  }
+}
+```
