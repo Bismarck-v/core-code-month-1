@@ -123,7 +123,7 @@ function createPhoneNumber(numbers){
 
 ## Thursday
 
-**1.A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once (case is irrelevant).**
+**1. A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once (case is irrelevant).**
 
 **Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.**
 ```Javascript
@@ -139,3 +139,18 @@ function isPangram(string){
   return true;
 }
 ```
+
+**2. #Find the missing letter
+Write a method that takes an array of consecutive (increasing) letters as input and that returns the missing letter in the array.
+You will always get an valid array. And it will be always exactly one letter be missing. The length of the array will always be at least 2.
+The array will always contain letters in only one case.**
+Example:
+```
+['a','b','c','d','f'] -> 'e' ['O','Q','R','S'] -> 'P'
+
+["a","b","c","d","f"] -> "e"
+["O","Q","R","S"] -> "P"
+(Use the English alphabet with 26 letters!)
+```
+**Have fun coding it and please don't forget to vote and rank this kata! :-)
+I have also created other katas. Take a look if you enjoyed this kata!**
