@@ -208,3 +208,10 @@ function revrot(str, sz)
    return arr.map(x => test(x) ? reverse(x) : rotate(x)).join("");
 }
 ```
+
+**5. What's Your Poison?**
+```Javascript
+function find(rats) {
+     return rats.reduce((a, v) => a+(1<<v), 0);
+}
+```
