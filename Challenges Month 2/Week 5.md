@@ -65,3 +65,25 @@ export function warnTheSheep(queue: string[]): string {
     }
 }
 ```
+
+---
+
+## Tuesday
+
+**1. A Rule of Divisibility by 13**
+```Typescript
+export function thirt(n: number): number {
+  let res : number = n, last : number = -1, tenmod : number[] = [1, 10, 9, 12, 3, 4];
+  while(last != res){
+    last = res;
+    let temp : number = 0, i = 0;
+    while(res){
+      temp += (res % 10) * tenmod[i];
+      res =  Math.floor(res / 10);
+      i = (i + 1) % 6;
+    }
+    res = temp;
+  }
+  return res;
+}
+```
