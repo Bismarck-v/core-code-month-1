@@ -87,3 +87,17 @@ export function thirt(n: number): number {
   return res;
 }
 ```
+
+**2. Playing with digits**
+```Typescript
+export class G964 {
+
+    public static digPow = (n: number, p: number) => {
+       let ans: number = [...`${n}`].reduce((a, b, i) => a + Math.pow(+b, p + i), 0)
+        return ans % n ? -1 : ans / n
+    }
+}
+```
+
+**3. Valid Braces**
+```Javascript
