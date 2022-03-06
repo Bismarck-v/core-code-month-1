@@ -101,3 +101,14 @@ export class G964 {
 
 **3. Valid Braces**
 ```Javascript
+export function validBraces(braces: string): boolean {
+  if(braces.length%2 !== 0) return false;
+  let count = braces.length;
+  braces = braces.replace('()', '');
+  braces = braces.replace('[]', '');
+  braces = braces.replace('{}', '');
+  if(braces.length === 0) return true;
+  if(braces.length === count) return false;
+  return validBraces(braces);
+}
+```
